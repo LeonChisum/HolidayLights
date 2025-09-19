@@ -1124,3 +1124,15 @@ pre {
     display: inline-block;
   }
 }
+
+#cta .btn a {
+	display: inline-block;
+	padding: 10px 20px;
+	text-decoration: none;
+	text-transform: capitalize;
+	border-radius: 3px;
+	color: white;
+	background: black;
+	transition: all 0.4s ease-in-out;
+	margin-left: 15px;
+}
