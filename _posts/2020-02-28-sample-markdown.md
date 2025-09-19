@@ -101,16 +101,62 @@ Here you can see an **expandable** section
 
 ## Request a Quote
 
-<form action="https://formspree.io/f/yourFormID" method="POST">
-  <label for="name">Name:</label><br>
-  <input type="text" name="name" required><br><br>
+<style>
+  form.custom-form {
+    max-width: 400px;
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: #EFE9E7; /* your background color */
+    border: 1px solid #A98743; /* gold border */
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+  }
 
-  <label for="email">Email:</label><br>
-  <input type="email" name="_replyto" required><br><br>
+  form.custom-form label {
+    font-weight: bold;
+    color: #111344; /* deep navy for text */
+    display: block;
+    margin-bottom: 0.5rem;
+  }
 
-  <label for="message">Message:</label><br>
-  <textarea name="message" rows="5" required></textarea><br><br>
+  form.custom-form input,
+  form.custom-form textarea {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
 
-  <button type="submit">Send</button>
+  form.custom-form button {
+    background-color: #A98743; /* gold */
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  form.custom-form button:hover {
+    background-color: #111344; /* navy */
+    color: #fff;
+  }
+</style>
+
+<form class="custom-form" action="https://formspree.io/f/yourFormID" method="POST">
+  <label for="name">Name</label>
+  <input type="text" name="name" required>
+
+  <label for="email">Email</label>
+  <input type="email" name="_replyto" required>
+
+  <label for="message">Message</label>
+  <textarea name="message" rows="5" required></textarea>
+
+  <button type="submit">Request a Quote</button>
 </form>
+
 
