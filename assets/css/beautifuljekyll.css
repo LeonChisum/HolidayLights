@@ -1140,6 +1140,7 @@ pre {
 }
 #cta .btn {
 	display: flex;
+	justify-content: center;
 }
 
 #cta .btn a {
