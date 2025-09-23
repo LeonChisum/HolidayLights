@@ -1157,7 +1157,8 @@ pre {
 	transition: all 0.4s ease-in-out;
 	margin-left: 15px;
 }
- form.custom-form {
+ form  {
+	text-align: left;
     max-width: 400px;
     margin: 2rem 0;
     padding: 1.5rem;
@@ -1167,9 +1168,10 @@ pre {
     font-family: 'Montserrat', sans-serif;
   }
 
-  form.custom-form label {
+  form label {
+	text-align: left;
     font-weight: bold;
-    color: #111344; /* deep navy for text */
+    color: #111344 !important; /* deep navy for text */
     display: block;
     margin-bottom: 0.5rem;
   }
