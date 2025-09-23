@@ -15,14 +15,8 @@ subtitle: Bring festive cheer to your home this holiday season.
     "
   ></div>
   <div class="btn">
-    <a
-      href="#quote"
-      >Get a Free Quote</a
-    >
-    <a
-      href="#our-services"
-      >Our Services</a
-    >
+    <a href="#quote">Get a Free Quote</a>
+    <a href="#our-services">Our Services</a>
   </div>
 </section>
 
@@ -44,11 +38,8 @@ subtitle: Bring festive cheer to your home this holiday season.
       </div>
     </div>
     <div class="col-md-6">
-      <img
-        src={{ 'assets/img/house-2.jpg'}}
-        alt="Holiday lights installation example"
-        class="img-fluid rounded shadow"
-      />
+      <img src={{ 'assets/img/house-2.jpg'}} alt="Holiday lights installation
+      example" class="img-fluid rounded shadow" />
     </div>
   </div>
 </section>
@@ -56,11 +47,8 @@ subtitle: Bring festive cheer to your home this holiday season.
 <section id="our-services" class="text-center container overflow-hidden py-5">
   <div class="row align-items-center gx-5">
     <div class="col-lg-6 mb-4 mb-lg-0">
-      <img
-        src={{ 'assets/img/house-3.jpg'}}
-        alt="Festive home lighting"
-        class="img-fluid rounded shadow"
-      />
+      <img src={{ 'assets/img/house-3.jpg'}} alt="Festive home lighting"
+      class="img-fluid rounded shadow" />
     </div>
     <div class="col-lg-6">
       <div class="content text-start">
@@ -119,11 +107,8 @@ subtitle: Bring festive cheer to your home this holiday season.
     </p>
   </div>
   <div class="mb-5">
-    <img
-      src={{ 'assets/img/house.jpg'}}
-      alt="Warm, welcoming holiday lights"
-      class="img-fluid rounded shadow"
-    />
+    <img src={{ 'assets/img/house.jpg'}} alt="Warm, welcoming holiday lights"
+    class="img-fluid rounded shadow" />
   </div>
   <div class="request-form">
     <h2>Get in Touch</h2>
@@ -144,12 +129,18 @@ subtitle: Bring festive cheer to your home this holiday season.
   <button type="submit">Request a Quote</button> -->
     <form
       name="quote-form"
-      netlify
+      method="POST"
+      data-netlify="true"
       netlify-honeypot="bot-field"
       class="row g-3"
       action="/success"
-      method="POST"
     >
+      <input type="hidden" name="form-name" value="quote-form" />
+      <p hidden>
+        <label
+          >Don’t fill this out if you're human: <input name="bot-field"
+        /></label>
+      </p>
       <div class="col-md-6">
         <label for="inputName4" class="form-label">Name</label>
         <input type="text" class="form-control" id="inputName4" name="name" />
