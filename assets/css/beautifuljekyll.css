@@ -1130,7 +1130,7 @@ pre {
 }
 
 #cta .cta-background {
-	background-image: url("/img/background-img");
+	background-image: url(".../img/background-img");
 	background-size: cover;
 	background-position: center;
 	opacity: .20;
