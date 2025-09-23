@@ -1126,10 +1126,12 @@ pre {
 }
 
 #cta {
+	position: relative;
 	padding: 10% 0;
 }
 
 #cta .cta-background {
+	width: 100%;
 	z-index: -1;
 	position: absolute;
 	inset: 0;
