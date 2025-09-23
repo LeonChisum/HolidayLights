@@ -1135,6 +1135,9 @@ pre {
 	background-position: center;
 	opacity: .20;
 }
+#cta .btn {
+	display: flex;
+}
 
 #cta .btn a {
 	width: 200px;
