@@ -1184,7 +1184,7 @@ pre {
     font-size: 1rem;
   }
 
-  form.custom-form button {
+  form button {
     background-color: #A98743; /* gold */
     color: #fff;
     border: none;
@@ -1195,7 +1195,7 @@ pre {
     text-transform: uppercase;
   }
 
-  form.custom-form button:hover {
+  form button:hover {
     background-color: #111344; /* navy */
     color: #fff;
   }
