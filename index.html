@@ -144,8 +144,11 @@ subtitle: Bring festive cheer to your home this holiday season.
 
   <button type="submit">Request a Quote</button> -->
     <form
+      name="quote-form"
+      netlify
+      netlify-honeypot="bot-field"
       class="row g-3"
-      action="https://formspree.io/f/yourFormID"
+      action="/success"
       method="POST"
     >
       <div class="col-md-6">
