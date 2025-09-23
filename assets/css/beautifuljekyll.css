@@ -1186,7 +1186,7 @@ pre {
 
   form button {
     background-color: #A98743; /* gold */
-    color: #fff;
+    color: #fff !important;
     border: none;
     padding: 0.75rem 1.5rem;
     border-radius: 5px;
@@ -1196,8 +1196,8 @@ pre {
   }
 
   form button:hover {
-    background-color: #111344; /* navy */
-    color: #fff;
+    background-color: #111344 !important; /* navy */
+    color: #fff !important;
   }
 
 #services .services-container {
