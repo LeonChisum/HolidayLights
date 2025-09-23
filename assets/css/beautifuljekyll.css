@@ -1130,6 +1130,7 @@ pre {
 }
 
 #cta .cta-background {
+	z-index: -1;
 	position: absolute;
 	inset: 0;
 	background-image: url(".../img/background-img.png");
