@@ -1175,6 +1175,10 @@ pre {
     margin-bottom: 0.5rem;
   }
 
+  form.form-control {
+	  margin-bottom: 5px;
+  }
+
   form.custom-form input,
   form.custom-form textarea {
     width: 100%;
