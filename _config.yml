@@ -20,7 +20,7 @@ author: created by Positive Misfits LLC
 ###############################################
 
 navbar-links:
-  About Us: "aboutus"
+  About Us: "#aboutus"
   # Resources:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"
